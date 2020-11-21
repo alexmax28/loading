@@ -234,6 +234,7 @@ html {
 @media(max-width:376px){
     .header{
         position: relative;
+        height: 4em;
     }
     .tabs-content{
         width: 50%;
