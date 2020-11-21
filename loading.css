@@ -48,7 +48,7 @@ html {
 }
 
 #nav{
-    width:80%;
+    width:100%;
     text-align: right;
     list-style: none;
     margin-right: 40px;
@@ -231,7 +231,7 @@ html {
 }
 
 
-@media(max-width:376px){
+@media(max-width:415px){
     .header{
         position: relative;
         height: 4em;
@@ -361,7 +361,7 @@ html {
     #menu
     {
     position: absolute;
-    width: 300px;
+    width: 400px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
