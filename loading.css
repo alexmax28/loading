@@ -218,7 +218,8 @@ html {
         width: 50%;
     }
     .logo{
-        display: none;
+        /* display: none; */
+        left: 0px;
     }
     #nav{
         width: 100%;
