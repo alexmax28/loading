@@ -32,3 +32,10 @@ jQuery(document).ready(function($) {
 
 
 });
+
+$('document').ready(function(){
+
+	$('.first-tab').click(function(){
+		$('.memu').addClass("close_memu");
+	});
+});

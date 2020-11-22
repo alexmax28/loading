@@ -222,6 +222,7 @@ html {
     .logo{
         /* display: none; */
         left: 0px;
+        margin: 0px 0px 0px 50px;
     }
     #nav{
         width: 100%;
@@ -394,5 +395,18 @@ html {
     transform: none;
     }
 
+    .close_memu{
+        transform: translate(-100%, 0);
+    }
+
+/* 
+    .first-tab:checked
+    {
+    transform: none;
+    } */
+
 }
+
+
+
       
