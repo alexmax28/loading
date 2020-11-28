@@ -14,7 +14,8 @@ p{
 }
 html {
 	height: 100%;
-	background: #f1f1f1;
+    background: #f1f1f1;
+    position: relative;
 }
 
 
@@ -34,17 +35,26 @@ html {
 .logo{
     display: inline-block;
     margin: 0;
-    position: absolute;
+    position: relative;
     /* white-space: nowrap;
     text-decoration: none;
     border: 0;
     color: inherit; */
     left: 0px;
-    width: 100px;
-    height: 100px;
-    background-image: url(./img/logo70.png);
+    width: 500px;
+    /* height: 100px; */
+    /* background-image: url(./img/logo70.png); */
     background-repeat: no-repeat;
     margin-left: 100px;
+    /* text-align: center; */
+}
+.logo>a{
+    position: absolute;
+    width: 250px;
+    height: 70px;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 26px;
 }
 
 #nav{
@@ -214,13 +224,30 @@ html {
 }
 
 
+.footer{
+    width: 100%;
+    background-color: #424754;
+    position: absolute;
+    bottom: 0px;
+}
+.footer_content{
+    color:white;
+    font-size: 16px;
+    padding: 10px;
+    width: 550px;
+    margin: 0 auto;
+}
+.footer_content>p{
+    text-align: left;
+}
+
 
 @media(max-width:768px){
     .tabs-content{
         width: 50%;
     }
     .logo{
-        /* display: none; */
+        display: none;
         left: 0px;
         margin: 0px 0px 0px 50px;
     }
@@ -246,10 +273,12 @@ html {
     }
     .logo{
         display: inline-block;
-        left: 40%;
         width: 70px;
         height: 70px;
         margin: 0 auto;
+    }
+    .logo>a{
+        display: none;
     }
     #nav{
         display: none;
@@ -262,6 +291,9 @@ html {
 
     .header{
         position: relative;
+    }
+    .footer_content{
+        width: auto;
     }
 
 
@@ -366,7 +398,7 @@ html {
     #menu
     {
     position: absolute;
-    width: 400px;
+    width: 350px;
     margin: -100px 0 0 -50px;
     padding: 50px;
     padding-top: 125px;
