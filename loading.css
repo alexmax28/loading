@@ -93,7 +93,8 @@ body{
     padding: 1.5em; 
     width: 30%;
     margin: 0 auto;
-    margin-top: 8em;
+    margin-top: 9em;
+    margin-bottom: 9em;
     background: white;
     display: flex;
     border-radius: 0.5em;
@@ -230,12 +231,13 @@ body{
 .footer{
     width: 100%;
     background-color: #424754;
+    position: relative;
     bottom: 0px;
 }
 .footer_content{
     color:white;
     font-size: 16px;
-    padding: 10px;
+    padding: 3em;
     width: 550px;
     margin: 0 auto;
 }
